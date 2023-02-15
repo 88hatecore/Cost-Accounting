@@ -1,12 +1,12 @@
 import "./CostItem.css";
-
-function CostItem() {
+import CostDate from "./CostDate";
+function CostItem(props) {
   return (
     <div className="cost-item">
-      <div>март 2021 21</div>
+      <CostDate date={props.date} />
       <div className="cost-item__description">
-        <h2>Холодильник</h2>
-        <div className="cost-item__price">$999.99</div>
+        <h2>{props.description}</h2>
+        <div className="cost-item__price">${props.amount}</div>
       </div>
     </div>
   );
