@@ -1,8 +1,9 @@
 import CostItem from "./CostItem";
+import "./Costs.css"
 
 function Costs(props) {
   return (
-    <div>
+    <div className="costs">
       <CostItem
         date={props.costs[0].date}
         description={props.costs[0].description}
