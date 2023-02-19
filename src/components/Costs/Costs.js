@@ -5,8 +5,7 @@ import Card from "../UI/Card";
 import { useState } from "react";
 
 const Costs = (props) => {
-  const [selectedYear, setSelectedYear] = useState("2020");
-
+  const [selectedYear, setSelectedYear] = useState("2023");
   const yearChangeHandler = (year) => {
     setSelectedYear(year);
   };
