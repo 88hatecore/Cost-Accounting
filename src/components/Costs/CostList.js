@@ -9,13 +9,13 @@ const CostList = (props) => {
   return (
     <ul className="cost-list">
       {props.costs.map((cost) => (
-      <CostItem
-        key={cost.id}
-        date={cost.date}
-        description={cost.description}
-        amount={cost.amount}
-      />
-      ))};
+        <CostItem
+          key={cost.id}
+          date={cost.date}
+          description={cost.description}
+          amount={cost.amount}
+        />
+      ))}
     </ul>
   );
 };
