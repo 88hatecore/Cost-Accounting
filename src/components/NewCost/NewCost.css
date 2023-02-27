@@ -1,5 +1,5 @@
 .new-cost {
-    background-color: #aac4d1;
+  background-color: #5a55551a;
     padding: 1rem;
     margin: 2rem auto;
     width: 70rem;
@@ -13,15 +13,15 @@
     font: inherit;
     cursor: pointer;
     padding: 1rem 2rem;
-    border: 1px solid #2a5b84;
-    background-color: #2a5b84;
-    color: #fefae1;
+    border: 1px solid #000000;
+    background-color: #1f2429;
+    color: aliceblue;
     border-radius: 10px;
     margin-right: 3px;
   }
   
   .new-cost button:hover,
   .new-cost button:active {
-    background-color: #2a5c84b2;
-    border-color: #2a5c84b2;
+    background-color: #2424241a;
+    border-color: #5a55551a;
   }

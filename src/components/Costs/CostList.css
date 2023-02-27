@@ -4,6 +4,6 @@
 }
 
 .cost-list__fallback {
-  color: #fefae1;
+  color: rgb(0, 0, 0);
   text-align: center;
 }
